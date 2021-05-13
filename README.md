@@ -208,6 +208,8 @@ AddEventHandler("main", "OnAfterUserRegister", "OnAfterUserRegisterHandler");
 );?>
 ```
 
+№2
+```php<?$APPLICATION->IncludeFile(SITE_DIR."/include/form/form_title.php", Array(), Array("MODE" => "html", "NAME" => "TITLE")); ?>```
 # Достать информацию о текущем пользователе
 
 ```php
